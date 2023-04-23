@@ -2,10 +2,17 @@ h1 {
   color: blueviolet;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border-bottom: 1px solid white;
-  font-size: 2em;
+  font-size: 60px;
+}
+
+#imagem1 {
+  width: 30%;
+  height: auto;
 }
 
 body {
+  font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   /*definindo o elemento body como um container flexível.*/
   flex-direction: column;
