@@ -1,0 +1,21 @@
+h1 {
+  color: blueviolet;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-bottom: 1px solid white;
+  font-size: 2em;
+}
+
+body {
+  display: flex;
+  /*definindo o elemento body como um container flexível.*/
+  flex-direction: column;
+  /*direção dos eixos do container flexível*/
+  justify-content: center;
+  /*centralizar verticalmente no container flexivel */
+  align-items: center;
+  /*centraliza todo o conteúdo verticalmente*/
+  min-height: 50vh;
+  /*altura minima*/
+  background-color: black;
+  color: white;
+}
