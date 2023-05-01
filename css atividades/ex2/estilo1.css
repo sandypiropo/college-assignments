@@ -1,0 +1,15 @@
+.imagem{
+    background: url("logo.png") no-repeat; 
+    width: 400px;
+    height: 400px;
+    display: block;
+    background-size: contain;
+}
+
+.imagem:hover{
+    background-position: 0px 50px;
+}
+
+.imagem:active{ 
+    background-position: 50px 50px;
+} /* após clicar e segurar ele se move para a direita */
