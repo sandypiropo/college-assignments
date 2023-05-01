@@ -1,0 +1,26 @@
+/* Define a classe "alternada" com as seguintes propriedades */
+.alternada {
+    list-style: upper-alpha;
+    /* define o estilo da lista como letras maiúsculas */
+    color: black;
+    /* define a cor do texto como preto */
+    font-size: 30px;
+    /* define o tamanho da fonte como 30 pixels */
+    width: fit-content;
+    /* define a largura da lista de acordo com seu conteúdo */
+}
+
+/* Define que cada item ímpar da lista terá uma cor de fundo diferente */
+.alternada li:nth-child(odd) {
+    background-color: lightgreen;
+}
+
+/* Define que cada item par da lista terá uma cor de fundo diferente */
+.alternada li:nth-child(even) {
+    background-color: lightpink;
+}
+
+/* Define que ao passar o mouse sobre um item da lista, o texto ficará em negrito */
+.alternada li:hover {
+    font-weight: bolder;
+}
