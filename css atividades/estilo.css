@@ -1,0 +1,52 @@
+.Q {
+    border: 3px solid black;
+    /* define a borda  */
+    width: 100px;
+    /* define a largura */
+    height: 100px;
+    /* define a altura */
+    margin: 10px;
+    /* margens externas do elemento */
+    background-color: aquamarine;
+    position: absolute;
+    /* define a posição como absoluta */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Define o estilo para elementos com classe "q1" */
+.q1 {
+    left: 0px;
+    /* define a distância do elemento em relação à borda esquerda do elemento pai */
+    top: 0px;
+    /* define a distância do elemento em relação à borda superior do elemento pai */
+}
+
+/* Define o estilo para elementos com classe "q2" */
+.q2 {
+    right: 0px;
+    /* define a distância do elemento em relação à borda direita do elemento pai */
+    bottom: 0px;
+    /* define a distância do elemento em relação à borda inferior do elemento pai */
+    background-color: red;
+    /* cor de fundo */
+}
+
+/* Define o estilo para elementos com classe "q3" */
+.q3 {
+    left: 0px;
+    /* define a distância do elemento em relação à borda esquerda do elemento pai */
+    bottom: 0px;
+    /* define a distância do elemento em relação à borda inferior do elemento pai */
+    background-color: blue;
+    /* cor de fundo */
+}
+
+/* Define o estilo para elementos com classe "q4" */
+.q4 {
+    right: 0px;
+    /* define a distância do elemento em relação à borda direita do elemento pai */
+    top: 0px;
+    /* define a distância do elemento em relação à borda superior do elemento pai */
+    background-color: yellow;
+    /* cor de fundo */
+}
