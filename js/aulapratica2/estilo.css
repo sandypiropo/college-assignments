@@ -1,0 +1,24 @@
+
+input[type='text'] {
+    width: 10%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid darkblue;
+}
+
+.botao {
+    display: block;
+    width: 12%;
+    padding: 10px 15px;
+    border: 0;
+    background:  darkblue;
+    color: white;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.botao:hover {
+    background: black;
+}
+
